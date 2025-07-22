@@ -1,0 +1,60 @@
+/* Login.css */
+.container {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+    
+     height: 100%;
+     background-color: #0e0d0d;
+     font-family: Arial, sans-serif;
+   }
+   .form {
+    background-color: #74b1c7;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(9, 9, 9, 0.1);
+    width: 100%;
+    max-width: 400px;
+   }
+   
+   .input {
+     width: 90%;
+     padding: 10px;
+     margin: 10px 0;
+     border-radius: 4px;
+     background-color: #222020;
+     border: 1px solid #e4e0e0;
+     
+     
+   }
+   
+   .button {
+     width: 40%;
+     padding: 10px;
+     background-color: #007BFF;
+     color: #fff;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+     font-size: 16px;
+     margin-left: 30%;
+   }
+   
+   .button:hover {
+     background-color: #0056b3;
+   }
+   
+   .link {
+     text-align: center;
+     margin-top: 10px;
+     color: #007BFF;
+     text-decoration: none;
+   }
+   
+   .message {
+     margin: 10px 0;
+     color: #ff0000;
+     text-align: center;
+   }
+   

@@ -1,0 +1,72 @@
+/* Container styling */
+.problem-container {
+     padding: 10px;
+  
+     max-width: 1600px;
+     height: auto; /* Allow height to adjust dynamically */
+     min-height: 1000px; /* Set a minimum height */
+     /* background-color: #1e293b; */
+     color: #e2e8f0; /* Light text for readability */
+     border-radius: 8px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+     font-family: "Arial", sans-serif;
+   }
+   
+   /* Title and subtitle styles */
+   .problem-title {
+     font-size: 30px;
+     margin-top: 1px;
+     font-weight: bold;
+     color: #38bdf8; /* Aqua color for titles */
+     text-align: center;
+     margin-bottom: 20px;
+   }
+   
+   .problem-subtitle {
+     font-size: 20px;
+     font-weight: bold;
+     color: #7dd3fc; /* Light aqua for subtitles */
+     margin-top: 20px;
+   }
+   
+   /* Text styles */
+   .problem-text {
+     font-size: 20px;
+     line-height: 1.6;
+     color: #f1f5f9;
+   }
+   
+   /* Sample box styling */
+   .sample-box {
+     background-color: #334155; /* Darker box background */
+     padding-left: 15px;
+     border: 1px solid #64748b; /* Border for the box */
+     border-radius: 5px;
+     margin: 10px 0;
+     color: #f1f5f9;
+     /* height: 40px; */
+     font-size: 15px;
+     font-family: "Courier New", monospace; /* Monospace font for code-like appearance */
+     white-space: pre-wrap; /* Preserve newlines */
+     overflow-x: auto; /* Handle long content gracefully */
+   }
+   
+   /* Add some responsiveness */
+   @media (max-width: 768px) {
+     .problem-container {
+       padding: 15px;
+     }
+   
+     .problem-title {
+       font-size: 20px;
+     }
+   
+     .problem-subtitle {
+       font-size: 18px;
+     }
+   
+     .problem-text {
+       font-size: 14px;
+     }
+   }
+   

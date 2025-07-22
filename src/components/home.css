@@ -1,0 +1,49 @@
+/* Button Style */
+.custom-button {
+     padding: 12px 24px;
+
+     background-color: #007bff;
+     color: white;
+     border: 7px solid transparent;
+     border-radius: 9px;
+     border-color: rgb(145, 89, 209);
+     font-size: 1.5rem;
+     cursor: pointer;
+
+     outline: none;
+     height: 70px;
+     width:400px;
+     transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+   }
+   .hello {
+     margin-top: 10px;
+     font-size: 70px;
+     color: #2a976f;
+     text-align: center;
+     text-shadow: 2px 2px 5px rgb(95, 176, 196); /* Adding a subtle shadow for better visibility */
+     letter-spacing: 2px; /* Slight spacing between letters for a modern look */
+     font-family: 'Arial', sans-serif; /* Clean and modern font */
+     padding: 20px 0; /* Add some vertical padding for better spacing */
+     font-weight: bold; /* Make the font bolder for emphasis */
+   }
+   
+   /* Button Hover Effect */
+   .custom-button:hover {
+     background-color: #0056b3;
+     transform: scale(1.1); /* Slightly scale the button */
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+     border-color: #0056b3; /* Change border color on hover */
+   }
+   
+   /* Button Focus Effect */
+   .custom-button:focus {
+     border-color: #ffcc00; /* Yellow border on focus */
+     outline: none; /* Remove default outline */
+   }
+   
+   /* Button Active State */
+   .custom-button:active {
+     transform: scale(0.98); /* Slightly shrink the button when clicked */
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a smaller shadow when clicked */
+   }
+   

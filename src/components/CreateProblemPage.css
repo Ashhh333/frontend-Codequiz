@@ -1,0 +1,138 @@
+/* General styles for the page */
+.page-container {
+     font-family: Arial, sans-serif;
+     padding: 20px;
+     background-color: #0c0c0c;
+     color: white;
+     min-height: 100vh;
+     width: 98%;
+   }
+   
+   .content-wrapper {
+     max-width: 1200px;
+     margin: 0 auto;
+     width: 100%;
+     padding: 0 40px;
+     box-sizing: border-box;
+   }
+   
+   /* Header */
+   .page-header {
+     text-align: center;
+     margin-bottom: 15px;
+     font-size: 2.5rem;
+     margin-top: 0px;
+   }
+   
+   /* Form Fields */
+   .form-group {
+     margin-bottom: 30px;
+   }
+   
+   .form-label {
+     display: block;
+     font-weight: bold;
+     margin-bottom: 6px;
+     font-size: 1.25rem;
+   }
+   
+   .textarea,
+   .input {
+     width: 100%;
+     padding: 10px;
+     font-size: 1rem;
+     background-color: #2d2d2d;
+     color: #e0e0e0;
+     border: 1px solid #404040;
+     border-radius: 4px;
+     box-sizing: border-box;
+     resize: vertical;
+   }
+   
+   .textarea {
+     height: 60px;
+   }
+   
+   .textarea-large {
+     height: 120px;
+   }
+   
+   .textarea-small {
+     height: 40px;
+   }
+   
+   /* Test Cases Section */
+   .test-cases {
+     margin-bottom: 5px;
+   }
+   
+   .test-case-container {
+     display: flex;
+     align-items: center;
+     margin-bottom: 10px;
+     gap: 10px;
+   }
+   
+   .input-test-case {
+     flex: 1;
+     padding: 2px;
+     font-size: 90rem;
+     background-color: #cf0f0f;
+     color: #e0e0e0;
+     border: 1px solid #404040;
+     border-radius: 4px;
+     box-sizing: border-box;
+     height: 5px;
+   }
+   
+   .button-delete {
+     padding: 6px 10px;
+     background-color: #dc3545;
+     color: white;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+     white-space: nowrap;
+     height: 30px;
+     width: auto;
+     font-size: 0.9rem;
+   }
+   
+   .button-add-test-case {
+     padding: 8px 15px;
+     background-color: #28a745;
+     color: white;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+     margin-top: 10px;
+     height: 40px;
+     width: 150px;
+     font-size: 1rem;
+   }
+   
+   /* Submit Button */
+   .button-submit {
+     padding: 10px 20px;
+     background-color: #007bff;
+     color: white;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+     display: block;
+     margin: 0 auto;
+     height: 50px;
+     width: 200px;
+     font-size: 1.25rem;
+   }
+   
+   /* Link Section */
+   .link-section {
+     margin-top: 15px;
+     text-align: center;
+   }
+   
+   .link {
+     color: #007bff;
+     text-decoration: none;
+   }
