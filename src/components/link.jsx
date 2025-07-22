@@ -33,7 +33,9 @@ const LinkInputBox = () => {
 
     try {
       // Use axios to make a GET request to the backend API
-      const response = await axios.get(`/api/problem/${problemId}`);
+         const URL = "https://backend-codequiz.onrender.com";
+
+      const response = await axios.get(`${URL}/api/problem/${problemId}`);
       console.log(response.data);
       const { ProblemName,description, inputFormat, outputFormat, testCases } = response.data;
 
