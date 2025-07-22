@@ -28,7 +28,7 @@ const CreateProblemPage = () => {
   const handleSubmit = async () => {
     try {
        const URL = "https://backend-codequiz.onrender.com";
-const response = await fetch(`${URL}/api/create-problem`, {
+const response = await axios.post(`${URL}/api/signup`, {
         ProblemName,
         description,
         inputFormat,
